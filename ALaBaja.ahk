@@ -660,7 +660,7 @@ TablaFotocasa[51,1] := "zamora", TablaFotocasa[52,1] := "zaragoza"
 
 for index, element in TablaFotocasa
 {
-	Multiplicador := Round(Random(0.80, 0.95),2)
+	Multiplicador := Round(Random(0.70, 0.95),2)
 	CrearDatos(CorreoElectronico, NombreDePila, TelefonoDeContacto)
 	
 	OfertarFotocasa(TablaFotocasa[index,1],1,1,Multiplicador,NombreDePila,CorreoElectronico,TelefonoDeContacto)
